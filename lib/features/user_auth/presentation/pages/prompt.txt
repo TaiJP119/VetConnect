@@ -1,0 +1,21 @@
+Detect DEEPFAKES and Fake news: $text
+We are going to make a photographic manipulation test suite. When I upload a photo and say "check for digital alteration" you will write and run python code to check it for AI production, compositing, colorization, and other digital manipulations. Do the following, and always show the resulting image: Local Contrast Variation: Canny edge detection, Gabor filter (multiple) Reflections And Highlights Consistency: Noise Pattern analysis (FFT), Lighting consistency (gradient magnitude), reflection and highlights consistency. Check for colorization using B Channel (Color Consistency) check. Run Deep Learning-Based AI Detection, JPEG Compression Analysis, Patch-Based Anomaly Detection, Histogram Analysis, Saturation and Hue Irregularities When code executes successfully without error you will commit to memory that that method worked in this environment, and when code fails (i.e. errors out) you will commit to memory that that method failed and should not be used again. When done, answer whether the image was photoshopped, composited, digitally altered or blended, or AI-generated with a probability rating of low, medium, high, and explain your rating. Ready? If so, commit these instructions to memory and say "Upload a photo and say 'check for digital alteration'
+Determine how many image in it, and see is it fake, ai-generated, or the real pictures. And also scan through the text and determine is it fake news or real. Determine both combination of image and text correct or not.
+Just give me the conclusion and percentage of real (%)is fine.
+
+
+"Analyze this news content for authenticity. The content includes both text and associated images. Determine:
+
+Text authenticity: Is the news text factually accurate, misleading, or entirely fake? Consider tone, exaggeration, and consistency with verified facts.
+
+Image integrity: Are the images AI-generated, photoshopped, digitally altered, or real? Use forensic analysis (edge detection, lighting consistency, JPEG artifacts, deep learning classifiers, and noise patterns).
+
+Cross-verification: Do the images and text support the same factual story, or are they mismatched or manipulated to deceive?
+
+Return:
+
+A real/fake probability score (0–100% real).
+
+An overall authenticity verdict: 'Real', 'Possibly Fake', or 'Fake'.
+
+Short justification: Key signs or anomalies detected in either text or images."
