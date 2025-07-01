@@ -29,7 +29,7 @@ class _AIPageState extends State<AIPage> {
   Map<String, String> petNameMap = {};
   final model = GenerativeModel(
     model: 'gemini-2.0-flash',
-    apiKey: 'AIzaSyDge1tJqC81v4D2i7xHPUi-_423erozq8I',
+    apiKey: 'YOUR_API_KEY',
   );
   final List<String> faqQuestions = [
     "My pet is vomiting. What should I do?",
