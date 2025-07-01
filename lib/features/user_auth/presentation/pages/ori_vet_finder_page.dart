@@ -33,7 +33,7 @@
 //   List<VetClinic> _vetClinics = [];
 //   bool _sortByReview = false;
 //   bool _only24Hr = false;
-//   final String apiKey = 'AIzaSyBYaINhvJikyGC4hI4U1c-XkrH6SVrZUBY';
+//   final String apiKey = 'YOUR-API-KEY';
 
 //   @override
 //   void initState() {
