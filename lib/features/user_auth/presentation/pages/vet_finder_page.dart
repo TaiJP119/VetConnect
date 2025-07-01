@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 // Your Google API Key here:
-const String googleApiKey = 'AIzaSyA1z8W05kR4nYrZ-f4Tymq9xlanjc7fug8';
+const String googleApiKey = 'api-key';
 
 class Place {
   final String placeId;
